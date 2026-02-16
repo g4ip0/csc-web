@@ -56,8 +56,12 @@
       </a-entity>
 
       <a-entity position="0 2 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 10000">
-        <a-sphere position="5.5 0 0" radius="0.28" color="#2E86C1"></a-sphere>
-      </a-entity>
+        <a-sphere
+        position="5.5 0 0"
+        radius="0.28"
+        material="src: #earthTex">
+        </a-sphere>
+       </a-entity>
 
       <a-entity position="0 2 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 14000">
         <a-sphere position="6.8 0 0" radius="0.22" color="#C1440E"></a-sphere>
@@ -80,6 +84,16 @@
       </a-entity>
 
     </a-scene>
+<a-assets>
+  <img id="mercuryTex" src="textures/mercury.jpg">
+  <img id="venusTex" src="textures/venus.jpg">
+  <img id="earthTex" src="textures/earth.jpg">
+  <img id="marsTex" src="textures/mars.jpg">
+  <img id="jupiterTex" src="textures/jupiter.jpg">
+  <img id="saturnTex" src="textures/saturn.jpg">
+  <img id="uranusTex" src="textures/uranus.jpg">
+  <img id="neptuneTex" src="textures/neptune.jpg">
+</a-assets>
 
   </body>
 </html>
