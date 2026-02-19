@@ -6,7 +6,11 @@
     <script src="https://aframe.io/releases/1.7.0/aframe.min.js"></script>
   </head>
   <body>
-
+<a-entity position="0 1.8 0" camera look-controls wasd-controls>
+  <a-camera id="camera">
+    <a-cursor color="#333" maxDistance="30"></a-cursor>
+  </a-camera>
+</a-entity>
     <a-scene background="color: #000000">
 
       <!-- CAMERA -->
